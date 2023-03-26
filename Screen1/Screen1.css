@@ -1,0 +1,97 @@
+.screen1-container{
+    display: flex;
+    flex-direction: column;
+    background: hsl(197, 51%, 88%);
+    width: 360px;
+    height: 500px;
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+    padding: 20px;
+    background-image: linear-gradient(to bottom, hsl(197, 51%, 88%) , white);
+    box-shadow: 10px;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, .1);
+
+}
+
+.screen1-form-box{
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.screen1-header{
+    margin-bottom: 20px;
+   font-weight: bold;
+   font-size: 22px;
+}
+
+.screen1-form-box input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+
+
+.continue-button{
+    margin-bottom: 30px;
+    padding: 12px 28px;
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.screen1-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  
+}
+
+.whatsapp-button{
+    padding: 12px 28px;
+    border: 1px solid green;
+    background-color: white;
+    border-radius: 10px;
+    color: green;
+}
+
+.google-button{
+    padding: 12px 28px;
+    border: 1px solid blue;
+    background-color: white;
+    border-radius: 10px;
+    color: blue;
+}
+
+
+
+.whatsapp-icon{
+    width: 20px;
+    display: inline;
+    margin-right: 10px;
+    color:green !important;
+}
+
+.google-icon{
+    width: 20px;
+    display: inline;
+    margin-right: 10px;
+}
+
+
+.terms-policies{
+    margin-top: 50px;
+}
+
+.terms-policies span{
+   color: skyblue;
+   text-align: center;
+   
+}

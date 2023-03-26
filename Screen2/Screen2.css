@@ -1,0 +1,47 @@
+.screen2-container{
+    display: flex;
+    flex-direction: column;
+    background: hsl(197, 51%, 88%);
+    width: 360px;
+    height: 500px;
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+    padding: 20px;
+
+}
+
+.screen2-form-box{
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.screen2-header{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 22px;
+ 
+}
+
+.screen2-otp-header{
+    margin-bottom: 20px;
+}
+
+.screen2-form-box input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+
+.screen2-form-box button{
+    padding: 12px 28px;
+    margin-top: 15px;
+    background-color: blue;
+    border-radius: 10px;
+    width: 100%;
+}
